@@ -1,0 +1,54 @@
+.carta{
+    background-color: grey;
+    height: 20rem;
+    width: 20rem;
+}
+#fila1{
+    float: left;
+    height: 100%;
+    width: 33.3%;
+    background-color: navy;
+    color: brown;
+}
+#fila2{
+    float: left;
+    height: 100%;
+    width: 33.3%;
+    background-color: blue;
+    color: brown;
+}
+#fila3{
+    float: left;
+    height: 100%;
+    width: 33.3%;
+    background-color: aqua;
+    color: brown;
+}
+.diamante1{
+    background-color: yellow;
+    margin-right: 6rem;
+}
+.diamante2{
+    background-color: yellow;
+    margin-top: 17.8rem;
+    margin-right: 6rem;
+    
+}
+.diamante3{
+    background-color: yellow;
+    margin-top: 9rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+.diamante4{
+    background-color: yellow;
+    margin-left: 6rem;
+    text-align: end;
+}
+.diamante5{
+    background-color: yellow;
+    margin-top: 17.8rem;
+    margin-left: 6rem;
+    text-align: end; 
+}
