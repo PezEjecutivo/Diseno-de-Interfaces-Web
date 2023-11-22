@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(110, 214, 215);
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin-bottom: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+}
+
+.logo {
+    width: 20%;
+}
+
+.cabecera {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.texto {
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav {
+    background-color: rgb(86, 168, 169);
+    margin-top: 6em;
+    padding: 4em;
+    width: 17%;
+    height: 82vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav div {
+    margin-bottom: 20px;
+}
+
+.content_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: rgb(64, 64, 64);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4em;
+    color: white;
+}
+
+footer .redes_sociales {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(64, 64, 64);
+    width: 100%;
+    height: 9%;
+    bottom: 0;
+    float: left;
+}
+
+footer .redes_sociales img {
+    width: 3.8em;
+    height: 3.8em;
+}
+
+footer div.copyright {
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-family: serif;
+}
