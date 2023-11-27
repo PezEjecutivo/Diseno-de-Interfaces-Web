@@ -1,0 +1,166 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container-fluid {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/fondo.png");
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 13vh;
+  padding: 16px 16px;
+  background-color: rgb(110, 214, 215);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+
+.medicos {
+  margin: 5em;
+  padding: 2em;
+}
+
+
+.card {
+  margin: 1.7em;
+}
+
+
+.sesion {
+  width: 8em;
+  height: 8em;
+}
+
+
+.search-bar input {
+  width: 70em;
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+nav {
+  float: left;
+  background-color: rgb(86, 168, 169);
+  margin-top: 7.5vh;
+  margin-bottom: 15vh;
+  padding: 3vh;
+  padding-top: 11%;
+  width: 15%;
+  height: 83vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+nav a {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 1vh;
+  margin: 1vh;
+  width: 100%;
+  background-color: rgb(64, 64, 64);
+  border: rgb(110, 214, 215) solid;
+  border-radius: 10%;
+  transition-duration: 0.5s;
+}
+
+
+nav a:hover {
+  background-color: rgb(84, 84, 84);
+  border-color: #800eb6;
+  font-weight: lighter;
+  transition-duration: 0.5s;
+}
+
+
+nav div {
+  margin-bottom: 20px;
+}
+
+
+.content_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+  justify-content: space-between;
+}
+
+
+footer {
+  background-color: rgb(64, 64, 64);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+}
+
+
+footer .redes_sociales {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(64, 64, 64);
+  width: 100%;
+  height: 9%;
+  bottom: 0;
+  float: left;
+}
+
+
+footer .redes_sociales img {
+  width: 3.8em;
+  height: 3.8em;
+}
+
+
+footer div.copyright {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-family: serif;
+}
+
+
+.texto {
+  width: 100%;
+  bottom: 0;
+}
+
+
+.texto p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+
+.opcion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2em;
+}
