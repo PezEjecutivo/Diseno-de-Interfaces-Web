@@ -1,0 +1,45 @@
+.header {
+    grid-area: header;
+    height: 10vh;
+}
+
+.content {
+    grid-area: content;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    height: 50vh;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.nav{
+    grid-area: advert;
+}
+
+.cell {
+    background-color: #c3c3c3;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: coral;
+}
+
+.layout {
+    display: grid;
+    grid-gap: 4vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "header header header header"
+        "advert advert advert advert"
+        "sidebar content content content"
+        "nav footer footer footer"
+}
