@@ -1,0 +1,74 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./img/fondo.png");
+}
+
+.header {
+    grid-area: header;
+}
+
+.content {
+    grid-area: content;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.cell {
+    background-color: rgb(110, 214, 215);
+    color: #333;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 40px;
+    margin-top: 20vh;
+}
+
+.layout {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "... ... ... ..."
+        "... content content ..."
+        "footer footer footer footer";
+}
+
+footer {
+    background-color: rgb(64, 64, 64);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+}
+
+footer .redes_sociales {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(64, 64, 64);
+    width: 100%;
+    height: 9%;
+    bottom: 0;
+    float: left;
+}
+
+footer .redes_sociales img {
+    width: 3.8em;
+    height: 3.8em;
+}
+
+footer div.copyright {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-family: serif;
+}
