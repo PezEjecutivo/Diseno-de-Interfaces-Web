@@ -19,7 +19,13 @@
         <title>SaludXpress - Especialidades</title>
     </head>
 
-    <body>
+    <body id="cuerpo">
+        <style>
+            .card-body {
+                background-color: white;
+                color: black;
+            }
+        </style>
         <div class="container-fluid">
             <header>
                 <img class="logo" src="./img/logo.png" alt="" />
@@ -170,6 +176,10 @@
                 <div class="texto">
                     <div class="copyright"><p>©Pablo Valladares Gonzalez 2023 - Todo los derechos reservados.</p></div>
                 </div>
+                <div class="accesibilidad">
+                    <button class="btn btn-warning" onclick="accesibilidad()">A</button>
+                </div>
+                <script src="accesibilidad.js"></script>
             </footer>
         </div>
     </body>
