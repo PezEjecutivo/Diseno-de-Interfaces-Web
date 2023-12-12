@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>PROPIEDADES DE OVERFLOW</h1>
+        <div class="cuerpo" style="display: flex; flex-direction: row; gap: 3vh">
+            <div style="max-width: 150px">
+                <h2 class="definicionAuto">overflow: auto</h2>
+                <div class="hide">Creara las barras si fuera necesario unicamente</div>
+                <section class="container auto">CSS IS AWESOME</section>
+                <section class="container auto" style="margin-top: 10px">CSS</section>
+            </div>
+            <div style="max-width: 174px">
+                <h2 class="definicionHidden">overflow: hidden</h2>
+                <div class="hide">
+                    Mostrara unicamente lo que este en el cuadrado. El container de abajo usa text-overflow: ellipsis
+                </div>
+                <section class="container hidden">CSS IS AWESOME</section>
+                <section class="containerText hiddenText" style="margin-top: 10px">CSS IS AWESOME</section>
+            </div>
+            <div style="max-width: 170px">
+                <h2 class="definicionScroll">overflow: scroll</h2>
+                <div class="hide">creara las barra independiemente de si es necesario o no.</div>
+                <section class="container scroll">CSS IS AWESOME</section>
+                <section class="container scroll" style="margin-top: 10px">CSS</section>
+            </div>
+        </div>
+    </body>
+</html>

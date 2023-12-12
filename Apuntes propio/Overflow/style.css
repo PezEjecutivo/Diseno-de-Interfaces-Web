@@ -1,0 +1,54 @@
+.container {
+    width: 150px;
+    height: 150px;
+    background: white;
+    box-sizing: border-box; /*Poner esto siempre para toda la pagina*/
+    font-size: 48px;
+}
+
+.containerText {
+    width: 150px;
+    height: 150px;
+    background: white;
+    box-sizing: border-box; /*Poner esto siempre para toda la pagina*/
+    font-size: 40px;
+}
+
+.hiddenText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.auto {
+    overflow: auto; /*Poner siempre auto para buena prasis*/
+}
+.definicionAuto:hover + .hide {
+    display: block;
+}
+
+.hidden {
+    overflow: hidden;
+}
+.definicionHidden:hover + .hide {
+    display: block;
+}
+
+.scroll {
+    overflow: scroll;
+}
+.definicionScroll:hover + .hide {
+    display: block;
+}
+.hide {
+    display: none;
+}
+
+body {
+    background-color: skyblue;
+    text-align: center;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+}
