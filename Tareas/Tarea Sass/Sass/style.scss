@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+h1 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    color: yellowgreen;
+}
+footer {
+    margin-top: 3rem;
+    padding: 1rem;
+    background: #444;
+    h4 {
+        color: red;
+        a {
+            color: blue;
+        }
+    }
+}

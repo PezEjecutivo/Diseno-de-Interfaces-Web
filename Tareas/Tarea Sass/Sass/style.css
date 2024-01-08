@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  color: yellowgreen;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: #444;
+}
+footer h4 {
+  color: red;
+}
+footer h4 a {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
